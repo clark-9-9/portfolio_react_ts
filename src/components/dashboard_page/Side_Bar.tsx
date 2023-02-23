@@ -15,7 +15,7 @@ function Side_Bar() {
             </article>
 
             <article className='Side_Bar_Links'>
-                <NavLink to='/portfolio_react_ts' className="Side_Bar_Nav_Link">
+                <NavLink to='/' className="Side_Bar_Nav_Link">
                     <IonIcon class='Side_Bar_Link' icon={home} />
                 </NavLink>
 
