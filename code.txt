@@ -1,203 +1,3 @@
-
-.Home_page_Center_Left_Side {
-    position: relative;
-    /* margin: auto auto 3rem 288px; */
-    /* margin: auto auto 3rem 288px; */
-    user-select: none;
-    height: 100%;
-    width: 100%;
-    border: 2px solid yellow;
-}
-
-
-/* @media (width <= 940px) {
-    .Home_page_Center_Left_Side {
-        margin: auto auto 3rem auto;
-        padding: 0 1rem 0 3rem;
-    }
-} */
-
-
-.Introduction_Texts {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    margin-top: 5rem;
-    margin-left: 288px;
-    border: 2px solid;
-}
-
-
-@media (width <= 940px) {
-    .Introduction_Texts {
-        margin-left: auto;
-        margin-right: auto;
-        max-width: max-content;
-        padding: 0 1rem 0 2rem;
-    }
-}
-
-
-.Introduction_Texts p:nth-child(1) {
-    position: relative;
-    color: var(--Home_Page_Green_Color);
-    font-size: 70px;
-    font-family: var(--Font_Merienda_One);
-    text-transform: uppercase;
-    border: 2px solid;
-}
-
-
-.Introduction_Texts p:nth-child(1)::before {
-    content: "";
-    height: 110%;
-    width: 45px;
-    position: absolute;
-    top: -5px;
-    left: 0;
-    bottom: 0;
-    background-color: var(--Home_Page_Blue_Color);
-    z-index: -1;
-}
-
-
-@media (width <= 500px) {
-    .Introduction_Texts p:nth-child(1) {
-        font-size: 50px;
-    }
-
-    .Introduction_Texts p:nth-child(1)::before {
-        height: 83px;
-        width: 32px;    
-    }
-}
-
-
-.Introduction_Texts p:nth-child(2) {
-    max-width: 400px;
-    color: rgb(152, 212, 255, 0.6);
-    font-size: var(--Home_Page_Size_10px);
-    font-weight: 600;
-    letter-spacing: 0.135em;
-    line-height: 20px;
-    text-transform: capitalize;
-    border: 2px solid;
-}
-
-
-.Introduction_Texts p:nth-child(2) span#Name {
-    color: rgb(152, 212, 255);
-}
-
-
-.Home_page_Btns {
-    display: flex;
-    gap: 20px;
-    margin-top: 5rem;
-    margin-left: 288px;
-    border: 2px solid;
-}
-
-
-@media (width <= 940px) {
-    .Home_page_Btns {
-        margin-left: 0;
-        align-items: center;
-        padding: 0 1rem 0 2rem;
-        flex-direction: column;
-    }
-}
-
-
-.Home_page_Btns button {
-    color: white;
-    max-width: 170px;
-    width: 170px;
-    padding: 14px 0;
-    text-transform: uppercase;
-    font-size: 9px;
-    outline: none;
-    font-weight: bold;
-    cursor: pointer;
-    box-sizing: border-box;
-    transition: 200ms ease-in-out ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-@media(width <= 940px) {
-    .Home_page_Btns button {
-        margin-right: 230px;
-    }
-}
-
-
-.Home_page_Btns button:nth-child(1) {
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    background-color: transparent;
-}
-
-
-.Home_page_Btns button:nth-child(1):hover {
-    border-color: var(--Home_Page_Green_Color);;
-    box-shadow: 0 0 20px var(--Home_Page_Green_Color);
-}
-
-
-.Home_page_Btns button:nth-child(2) {
-    border: 1px solid rgba(255, 255, 255, 0.5) ;
-    background-color: var(--Home_Page_Blue_Color);
-}
-
-
-.Home_page_Btns button:nth-child(2):hover {
-    border-color: white;
-    box-shadow: 0 0 40px #3737ff;
-}
-
-
-
-/* 
-+ ------------ Home_Page ------------ Center_Grid -------------- Right_Side
-*/
-
-
-.Home_page_Center_Right_Side {
-    /* border: 2px solid red; */
-    height: 100%;
-    width: 100%;
-}
-
-
-
-
-#Hear_Beat {
-    max-width: 100%;
-}
-
-
-@media (width <= 940px) {
-    #Hear_Beat {
-        display: none;
-        margin: auto auto 3rem auto;
-        padding: 0 1rem 0 3rem;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
 Create a paths property in your compilerOptions object in tsconfig.json:
 perl
 Copy code
@@ -216,3 +16,25 @@ python
 Copy code
 import robot from "@images/Renato-Michell-Gonzalez-transformed.png";
 Note that you may need to restart your development server for the changes to take effect.
+
+
+
+
+custom-typings.d.ts file
+
+declare module '*.png';
+declare module '*.jpg';
+declare module '*.pdf';
+
+
+// declare module "./Images/Renato-Michell-Gonzalez-transformed.png" {
+//     const value: any;
+//     export default value;
+// }
+
+
+// declare module "*./Images/Renato-Michell-Gonzalez-transformed.png" {
+//     const value2: any;
+//     export default value2;
+// }
+  
