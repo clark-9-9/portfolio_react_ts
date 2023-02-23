@@ -5,7 +5,7 @@ import "./styles/Home_Page.css";
 import "./styles/Dashboard.css";
 import "./styles/Other_Pages.css";
 
-import{ BrowserRouter } from "react-router-dom";
+import{ HashRouter } from "react-router-dom";
 
 
 const root = ReactDOM.createRoot(
@@ -14,9 +14,9 @@ const root = ReactDOM.createRoot(
 
 root.render(
     <React.StrictMode>
-        <BrowserRouter>
+        <HashRouter>
             <App />
-        </BrowserRouter>
+        </HashRouter>
     </React.StrictMode>
 );
 
