@@ -5,7 +5,7 @@ import "./styles/Home_Page.css";
 import "./styles/Dashboard.css";
 import "./styles/Other_Pages.css";
 
-import{ HashRouter } from "react-router-dom";
+import{ BrowserRouter, HashRouter } from "react-router-dom";
 
 
 const root = ReactDOM.createRoot(
@@ -14,9 +14,9 @@ const root = ReactDOM.createRoot(
 
 root.render(
     <React.StrictMode>
-        <HashRouter>
+        <BrowserRouter basename='/portfolio_react_ts'>
             <App />
-        </HashRouter>
+        </BrowserRouter>
     </React.StrictMode>
 );
 

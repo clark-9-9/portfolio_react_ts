@@ -17,8 +17,8 @@ function App() {
     return (
         <Fragment>
             <Routes>
-                <Route 
-                    path='/' 
+                <Route  
+                    path='/portfolio_react_ts' 
                     element={
                         <Fragment>
                             <Home_Page />
