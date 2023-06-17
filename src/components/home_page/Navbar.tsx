@@ -67,8 +67,6 @@ function Home_Page_Navbar() {
                                     return (
                                         <a 
                                             key={link.id} 
-                                            href={link.CV} 
-                                            download 
                                             className={link.class}
                                         >
                                             {link.page}
