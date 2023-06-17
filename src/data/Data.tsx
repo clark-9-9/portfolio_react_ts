@@ -1,5 +1,4 @@
 import { nanoid } from "nanoid";
-import CV from "../components/Images/CV.pdf"
 
 import { 
     logoElectron, keypad,logoSlack,
@@ -55,7 +54,7 @@ const Links: Links_Types[] = [
         page:"resume",
         class:"Resume_Link",
         scrollTo: "#Resume_Section",
-        CV: CV
+        CV: ""
     }, 
     {
         id: nanoid(),
