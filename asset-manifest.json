@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio_react_ts/static/css/main.20f28ad7.css",
-    "main.js": "/portfolio_react_ts/static/js/main.937fdd5b.js",
+    "main.css": "/portfolio_react_ts/static/css/main.b99684a3.css",
+    "main.js": "/portfolio_react_ts/static/js/main.1f986a16.js",
     "static/js/738.3c73c21c.chunk.js": "/portfolio_react_ts/static/js/738.3c73c21c.chunk.js",
     "static/js/372.efc0a3e5.chunk.js": "/portfolio_react_ts/static/js/372.efc0a3e5.chunk.js",
     "static/js/856.b954125d.chunk.js": "/portfolio_react_ts/static/js/856.b954125d.chunk.js",
@@ -11,22 +11,16 @@
     "static/js/841.28e378c9.chunk.js": "/portfolio_react_ts/static/js/841.28e378c9.chunk.js",
     "static/js/186.cca12324.chunk.js": "/portfolio_react_ts/static/js/186.cca12324.chunk.js",
     "static/media/Renato-Michell-Gonzalez-transformed.png": "/portfolio_react_ts/static/media/Renato-Michell-Gonzalez-transformed.fb35c70c1ab2ac3b2d67.png",
-    "static/media/Droid-v2-Riyahd-Cassiem-transformed.png": "/portfolio_react_ts/static/media/Droid-v2-Riyahd-Cassiem-transformed.020aa31d4adf3d12fbb6.png",
     "static/media/OpenSans-VariableFont_wdth,wght.ttf": "/portfolio_react_ts/static/media/OpenSans-VariableFont_wdth,wght.ceb05254cedfa895b512.ttf",
-    "static/media/CV.pdf": "/portfolio_react_ts/static/media/CV.14da0cd2d7138dec0352.pdf",
-    "static/media/Upgrades - Photo Edit [OC].jpg": "/portfolio_react_ts/static/media/Upgrades - Photo Edit [OC].4a8e86d9fffec3f88ede.jpg",
-    "static/media/Olivia Black_ Photo.jpg": "/portfolio_react_ts/static/media/Olivia Black_ Photo.c829e12275dce1d2e7db.jpg",
+    "static/media/Mediamodifier-Design-Template-Computer-Network.png": "/portfolio_react_ts/static/media/Mediamodifier-Design-Template-Computer-Network.f95a6b0f07da7a557150.png",
     "static/media/logo-with-shadow.png": "/portfolio_react_ts/static/media/logo-with-shadow.83fc56296fdfb132d352.png",
-    "static/media/express.png": "/portfolio_react_ts/static/media/express.5d504a65b57cbabad0c7.png",
-    "static/media/reactjs-logo.png": "/portfolio_react_ts/static/media/reactjs-logo.20adfb35ae6a6e5817bf.png",
+    "static/media/api-svgrepo-white-com.png": "/portfolio_react_ts/static/media/api-svgrepo-white-com.16437430147d46f9cd7e.png",
     "static/media/MeriendaOne-Regular.ttf": "/portfolio_react_ts/static/media/MeriendaOne-Regular.c1220afcf0cceab9bd8b.ttf",
-    "static/media/javascript-logo-transparent-logo-javascript-images-3.png": "/portfolio_react_ts/static/media/javascript-logo-transparent-logo-javascript-images-3.7f8751632b42a9932c15.png",
-    "static/media/nodejs-1-logo.png": "/portfolio_react_ts/static/media/nodejs-1-logo.bc4b43cd5f20ba305059.png",
-    "static/media/mongodb.png": "/portfolio_react_ts/static/media/mongodb.9b774396ebc8b445c490.png",
-    "static/media/Java.png": "/portfolio_react_ts/static/media/Java.6c64373d3b7415758078.png",
+    "static/media/undraw_ideas_re_7twj.svg": "/portfolio_react_ts/static/media/undraw_ideas_re_7twj.3b4cd7dd3c6cc2572a713cc3dc06ebc2.svg",
+    "static/media/react-js-icon.png": "/portfolio_react_ts/static/media/react-js-icon.396536ced87da4ba25b4.png",
     "index.html": "/portfolio_react_ts/index.html",
-    "main.20f28ad7.css.map": "/portfolio_react_ts/static/css/main.20f28ad7.css.map",
-    "main.937fdd5b.js.map": "/portfolio_react_ts/static/js/main.937fdd5b.js.map",
+    "main.b99684a3.css.map": "/portfolio_react_ts/static/css/main.b99684a3.css.map",
+    "main.1f986a16.js.map": "/portfolio_react_ts/static/js/main.1f986a16.js.map",
     "738.3c73c21c.chunk.js.map": "/portfolio_react_ts/static/js/738.3c73c21c.chunk.js.map",
     "372.efc0a3e5.chunk.js.map": "/portfolio_react_ts/static/js/372.efc0a3e5.chunk.js.map",
     "856.b954125d.chunk.js.map": "/portfolio_react_ts/static/js/856.b954125d.chunk.js.map",
@@ -37,7 +31,7 @@
     "186.cca12324.chunk.js.map": "/portfolio_react_ts/static/js/186.cca12324.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.20f28ad7.css",
-    "static/js/main.937fdd5b.js"
+    "static/css/main.b99684a3.css",
+    "static/js/main.1f986a16.js"
   ]
 }
