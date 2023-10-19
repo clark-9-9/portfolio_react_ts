@@ -1,24 +1,19 @@
-import { Fragment } from "react";
-import { Home_Page_Navbar } from "../components/home_page/Navbar";
-import { Home_Page_Center } from "../components/home_page/Center";
+import { HomePageNavbar } from "../components/home_page/Navbar";
+import { HomePageCenter } from "../components/home_page/Center";
 
 
-
-
-function Home_Page() {
+function HomePage() {
 
     return (
         <section id="Home_Section" className="Home_Page_Section">
-
-            <Home_Page_Navbar />
-            <Home_Page_Center />
-
+            <HomePageNavbar />
+            <HomePageCenter />
         </section>
     )
 
 }
 
-export  { Home_Page }
+export  { HomePage }
 
 
 

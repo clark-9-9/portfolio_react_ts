@@ -1,10 +1,10 @@
 import React, { ReactElement } from 'react'
-import robot from "../Images/Renato-Michell-Gonzalez-transformed.png"
+import robot from "../../asset/Images/Renato-Michell-Gonzalez-transformed.png";
 import { NavLink } from 'react-router-dom'
 
 
 
-function Home_Page_Center():ReactElement {
+function HomePageCenter():ReactElement {
 
 
     return (
@@ -17,13 +17,13 @@ function Home_Page_Center():ReactElement {
                         <p>welcome</p>
 
                         <p>
-                            Hello My Name is <span id="Name">Clark EL</span> and Im am a self-taught Full-Stack
-                            Developer, Also Im 1st Year of CS in University  
+                            Hello my name is <strong>Clark EL</strong>, Im am a self-taught Software Engineer 
+                            and I study for Computer Science  
                         </p>
                     </div>
 
                     <div className='Home_page_Btns'>
-                        <NavLink to='/dashboard'>let's go</NavLink>
+                        <NavLink to='/projects'>let's go</NavLink>
                         <a href='#About_Section'>next</a> 
                     </div>
 
@@ -33,7 +33,7 @@ function Home_Page_Center():ReactElement {
 
             <article className='Home_page_Center_Right_Side'>
                 <div className='Home_Page_Image_Heart_Container'>
-                    <img  src={robot} className='Robot' />
+                    <img  src={robot} className='Robot' alt='' />
 
                     <div className='Center_Light_Circle Light_Circle_1'></div>
                     <div className='Center_Light_Circle Light_Circle_2'></div>
@@ -52,4 +52,4 @@ function Home_Page_Center():ReactElement {
 
 
 
-export  { Home_Page_Center }
+export  { HomePageCenter }

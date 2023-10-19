@@ -1,8 +1,8 @@
-import { Works } from "../components/other_pages/Works";
+import { Works } from "../components/pages/Works";
 
 
 
-function Works_Page() {
+function WorksPage() {
     return (
         <section id="Works_Section" className="Works_Page_Section">
             <Works />
@@ -11,5 +11,4 @@ function Works_Page() {
 }
 
 
-
-export { Works_Page };
+export { WorksPage };

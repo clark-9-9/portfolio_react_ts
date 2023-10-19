@@ -1,20 +1,13 @@
-import { useState } from "react";
-import { Side_Bar } from "../components/dashboard_page/Side_Bar";
-import { Dashboard_Center } from "../components/dashboard_page/Dashboard_Center";
+// import { SideBar } from "../components/dashboard_page/Side_Bar";
+import { MainDashboard } from "../components/dashboard_page/MainDashboard";
 
 
 function Dashboard() {
 
-    const[Background, setBackground] = useState<string>("#EAF1FF");
-
-
     return (
-        <section style={{ backgroundColor: Background }} className="Dashboard_Page_Section">
-            <Side_Bar />
-            
-            <Dashboard_Center 
-                Background_State={{ Background, setBackground }} 
-            />
+        <section className="Dashboard_Page_Section">
+            {/* <SideBar /> */}
+            <MainDashboard />
         </section>
     )
 }

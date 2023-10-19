@@ -1,11 +1,8 @@
-import { Skills } from "../components/other_pages/Skills";
+import { Skills } from "../components/pages/Skills";
 
 
 
-function Skill_Page() {
-
-
-
+function SkillPage() {
     return (
         <section className="Skill_Page_Section">
             <Skills />
@@ -13,4 +10,4 @@ function Skill_Page() {
     )
 }
 
-export { Skill_Page };
+export { SkillPage };

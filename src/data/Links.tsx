@@ -1,9 +1,7 @@
 import { nanoid } from "nanoid";
 
 import { 
-    logoElectron, keypad,logoSlack,
-    home, informationCircle, person, mail, document, grid
-
+    home, informationCircle, person, mail, grid
 } from 'ionicons/icons';
 
 
@@ -46,20 +44,20 @@ const Links: Links_Types[] = [
         icon: mail,
         page:"contacts",
         class:"Contacts_Link",
-        scrollTo: "#Contats_Section"
+        scrollTo: "#Contacts_Section"
     }, 
-    {
-        id: nanoid(),
-        icon: document,
-        page:"resume",
-        class:"Resume_Link",
-        scrollTo: "#Resume_Section",
-        CV: ""
-    }, 
+    // {
+    //     id: nanoid(),
+    //     icon: document,
+    //     page:"resume",
+    //     class:"Resume_Link",
+    //     scrollTo: "#Resume_Section",
+    //     CV: ""
+    // }, 
     {
         id: nanoid(),
         icon: grid,
-        page:"dashboard",
+        page:"projects",
         class:"Dashboard_Link",
         scrollTo: "#Dashboard_Section"
     }, 

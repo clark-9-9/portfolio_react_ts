@@ -1,11 +1,11 @@
-import { Grid_Content } from "../components/other_pages/About";
+import { About } from "../components/pages/About";
 
 
 
-function About_Page() {
+function AboutPage() {
     return (
         <section id="About_Section" className="About_Page_Section">
-            <Grid_Content />
+            <About />
         </section>
     )
 }
@@ -15,4 +15,4 @@ function About_Page() {
 
 
 
-export { About_Page };
+export { AboutPage };

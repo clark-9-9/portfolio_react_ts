@@ -1,18 +1,16 @@
-import { Fragment, useEffect } from 'react';
+import { Fragment } from 'react';
 
-import { Home_Page } from './pages/Home_Page';
-import { About_Page } from './pages/About_Page';
-import { Works_Page } from './pages/Works_page';
-import { Skill_Page } from './pages/Skill_Page';
-import { Contacts_Page } from './pages/Contacts_Page';
+import { HomePage } from './pages/Home_Page';
+import { AboutPage } from './pages/About_Page';
+import { WorksPage } from './pages/Works_Page';
+import { SkillPage } from './pages/Skill_Page';
+import { ContactsPage } from './pages/Contacts_Page';
 import { Dashboard } from './pages/Dashboard';
 import{ Routes, Route } from "react-router-dom";
 
 
 
 function App() {
-
-
 
     return (
         <Fragment>
@@ -22,25 +20,20 @@ function App() {
                     path='/' 
                     element={
                         <Fragment>
-                            <Home_Page />
-                            <About_Page />
-                            <Works_Page />
-                            <Skill_Page />
-                            <Contacts_Page />
+                            <HomePage />
+                            <AboutPage />
+                            <WorksPage />
+                            <SkillPage />
+                            <ContactsPage />
                         </Fragment>
                     } 
                 />
 
-                <Route path='/dashboard' element={ <Dashboard /> } />
+                <Route path='/projects' element={ <Dashboard /> } />
             </Routes>
         </Fragment>
     )
 }
 
 
-
-
 export default App;
-
-
-

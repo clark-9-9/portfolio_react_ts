@@ -1,85 +1,8 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap'); */
-
-@font-face {
-    font-family: 'Merienda One';
-    src: url('../font/Merienda_One/MeriendaOne-Regular.ttf') format('truetype');
-}
-  
-@font-face {
-    font-family: 'Open Sans';
-    src: url('../font/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
-}
-  
-* , ::before, ::after {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
- 
-:root {
-    --Font_Open_Sans: 'Open Sans', sans-serif;
-    --Font_Merienda_One: 'Merienda One', cursive;
-
-    --Home_Page_Background_Color: #121622;
-    --Home_Page_Blue_Color: #1010DD;
-    --Home_Page_Blue_Color_Logo: #309AF6;
-    --Home_Page_Green_Color: #98D4FF;
-
-    --Home_Page_Icon_Links_Color: #717B85;
-    --Home_Page_Icon_Links_Hover_Color: rgba(200, 223, 246, 0.6);
-    
-    --Home_Page_Size_8px: 8px;
-    --Home_Page_Size_9px: 9px;
-    --Home_Page_Size_10px: 10px;
-    --Home_Page_Size_12px: 12px;
-    --Home_Page_Size_14px: 14px;
-    --Home_Page_Size_70px: 70px;
-    
-    --Home_Page_Light_Circle_Background_Color_1: #38343A;
-    --Home_Page_Light_Circle_Background_Color_2: #363338;
-
-    --Home_Page_Light_Circle_Width_1: 299px;
-    --Home_Page_Light_Circle_Hight_1: 380px;
-
-    --Home_Page_Light_Circle_Width_2: 351px;
-    --Home_Page_Light_Circle_Hight_2: 319px;
-
-    --Home_Page_Light_Circle_Width_3: 355.42px;
-    --Home_Page_Light_Circle_Hight_3: 308px;
-
-    --Home_Page_Light_Circle_Blur_215px: blur(215px);
-    --Home_Page_Light_Circle_Blur_210px: blur(210px);
-    --Home_Page_Light_Circle_Blur_155px: blur(155px);
-}
-
-
-html {
-    scroll-behavior: smooth;
-    /* transition: 200ms ease-in-out scroll-behavior; */
-}
-
-
-body {
-    background-color: var(--Home_Page_Background_Color);
-    color: white;
-    font-size: 16px;
-    font-family: var(--Font_Open_Sans);
-    font-style: normal;
-    overflow-x: hidden;
-    min-height: 100vh;
-}
-
-
-body::-webkit-scrollbar {
-    display: none;
-}
 
 
 /*  
 + -------- Home_Page --------- Navbar --------
 */
-
 
 
 .Home_Page_Section {
@@ -151,7 +74,7 @@ body::-webkit-scrollbar {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
-    font-family: var(--Font_Open_Sans);
+    /* font-family: var(--Font_Open_Sans); */
     font-weight: 700;
     font-size: 10px;
     letter-spacing: 0.12em;    
@@ -522,23 +445,24 @@ body::-webkit-scrollbar {
 
 .Introduction_Texts p:nth-child(2) {
     position: relative;
-    color: rgba(152, 212, 255, 0.8);
-    font-size: var(--Home_Page_Size_10px);
-    font-weight: bold;
-    letter-spacing: 0.135em;
+    color: rgba(152, 212, 255);
+    /* font-size: var(--Home_Page_Size_10px); */
+    font-size: 13px;
+    font-weight: 500;
+    /* letter-spacing: 0.135em; */
     max-width: 420px;
-    line-height: 20px;
-    text-transform: capitalize;
+    /* line-height: 20px; */
+    /* text-transform: capitalize; */
     padding-left: 25px;
+    /* border: 1px solid white; */
 }
 
 
 .Introduction_Texts p:nth-child(2)::before {
     content: "";
     position: absolute;
-    top: 0;
     left: 0;
-    bottom: 0;
+    height: 105%;
     background-color: white;
     width: 3px;
     border-radius: 20px;
@@ -554,11 +478,11 @@ body::-webkit-scrollbar {
     }
 }
 
-
+/* 
 .Introduction_Texts p:nth-child(2) span#Name {
     color: #ffffff;
 }
-
+ */
 
 
 /* 

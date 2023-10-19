@@ -7,7 +7,7 @@ import { NavLink } from 'react-router-dom';
 
 
 
-function Side_Bar() {
+function SideBar() {
     return (
         <section className="Dashboard_Side_Bar">
             <article className='Slack_Box'>
@@ -19,7 +19,7 @@ function Side_Bar() {
                     <IonIcon class='Side_Bar_Link' icon={home} />
                 </NavLink>
 
-                <NavLink to='/dashboard' className="Side_Bar_Nav_Link">
+                <NavLink to='/projects' className="Side_Bar_Nav_Link">
                     <IonIcon class='Side_Bar_Link' icon={grid} />
                 </NavLink>
 
@@ -40,4 +40,4 @@ function Side_Bar() {
     )
 }
 
-export { Side_Bar };
+export { SideBar };
