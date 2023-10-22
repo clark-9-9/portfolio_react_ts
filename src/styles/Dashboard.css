@@ -18,13 +18,10 @@
 .Dashboard_Page_Section {
     position: relative;
     width: 100vw;
-    height: 100vh;
+    height: max-content;
     min-height: 100vh;
     background-color: var(--Dashboard_Background_Color);
-    padding: 0 20px;
     transition: 250ms ease-in-out backgroun d-color;
-    display: flex;
-    gap: 20px;
 }
 
 
@@ -82,8 +79,10 @@
 
 
 .Main_Dashboard {
+    margin: 0 auto;
     width: 100%;
     height: 100%;
+    padding: 2rem 20px;
     color: black;
     display: flex;
     flex-direction: column;
@@ -96,7 +95,6 @@
 .Dashboard_Header {
     position: relative;
     width: 100%;
-    margin-top: 2rem;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -119,7 +117,6 @@
 
 
 .Dashboard_Header article {
-    height: 100%;
     max-width: 280px;
     min-height: 40px;
     max-height: 40px;
@@ -129,25 +126,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    transition: 200ms ease-in-out width, 200ms ease-in-out max-width;
-    /* border: 1px solid black; */
-}
-
-
-.Dashboard_Header article input[type="text"] {
-    width: 100%;
-    height: 40px;
-    color: rgba(0, 0, 0, 0.8);
-    padding-right: 15px;
-    border-radius: 50px;
-    outline: none;
-    border: none;
+    transition: 250ms ease-in-out width, 250ms ease-in-out max-width;
 }
 
 
 .Search_Icon_Container {
     min-width: 40px;
-    height: 100%;
+    height: 40px;
     border-radius: 50px;
     display: flex;
     justify-content: center;
@@ -160,6 +145,17 @@
     color: black; 
 }
 
+.Dashboard_Header article input[type="text"] { 
+    width: 100%;
+    height: 40px;
+    color: rgba(0, 0, 0, 0.8);
+    padding-right: 15px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+}
+
+
 
 /* ---- Dashboard_Content ---- */
 
@@ -168,19 +164,12 @@
     position: relative;
     width: 100%;
     height: 100%;
-    min-height: 620px;
-    max-height: 620px;
-
-    /* border: 1px solid black; */
-    /* display: flex; */
-}
+} 
 
 
 .Projects_Container {
-    position: relative;
     width: 100%;
-    /* width: 75%; */
-    height: 100%;
+    max-height: 620px;
     padding: 1.5rem;
     border-radius: 15px;
     background-color: white;
@@ -201,6 +190,7 @@
     list-style: none;
     display: grid;
     justify-items: center;
+    align-items: flex-start;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 15px;
 }
@@ -240,16 +230,12 @@
 
 
 .Each_Project .Description {
-    /* height: 55px; */
     height: 100%;
     width: 100%;
     color: rgba(0, 0, 0, 0.5);
     font-size: 12px;
-    /* line-height: 14px; */
     font-weight: 600;
     overflow-y: scroll;
-    /* border: 1px solid black */
-
 }
 
 

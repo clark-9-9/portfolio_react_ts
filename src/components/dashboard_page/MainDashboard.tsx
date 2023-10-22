@@ -51,7 +51,7 @@ function DashboardHeader({ setSearchInput }: DashboardHeaderProps) {
                     placeholder='search for project'
                     onChange={(e) => setSearchInput(e.target.value)} 
                 />
-            </article>            
+            </article> 
         </section>
     )
 }
