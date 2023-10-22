@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio_react_ts/static/css/main.b99684a3.css",
+    "main.css": "/portfolio_react_ts/static/css/main.1961f891.css",
     "main.js": "/portfolio_react_ts/static/js/main.1f986a16.js",
     "static/js/738.3c73c21c.chunk.js": "/portfolio_react_ts/static/js/738.3c73c21c.chunk.js",
     "static/js/372.efc0a3e5.chunk.js": "/portfolio_react_ts/static/js/372.efc0a3e5.chunk.js",
@@ -19,7 +19,7 @@
     "static/media/undraw_ideas_re_7twj.svg": "/portfolio_react_ts/static/media/undraw_ideas_re_7twj.3b4cd7dd3c6cc2572a713cc3dc06ebc2.svg",
     "static/media/react-js-icon.png": "/portfolio_react_ts/static/media/react-js-icon.396536ced87da4ba25b4.png",
     "index.html": "/portfolio_react_ts/index.html",
-    "main.b99684a3.css.map": "/portfolio_react_ts/static/css/main.b99684a3.css.map",
+    "main.1961f891.css.map": "/portfolio_react_ts/static/css/main.1961f891.css.map",
     "main.1f986a16.js.map": "/portfolio_react_ts/static/js/main.1f986a16.js.map",
     "738.3c73c21c.chunk.js.map": "/portfolio_react_ts/static/js/738.3c73c21c.chunk.js.map",
     "372.efc0a3e5.chunk.js.map": "/portfolio_react_ts/static/js/372.efc0a3e5.chunk.js.map",
@@ -31,7 +31,7 @@
     "186.cca12324.chunk.js.map": "/portfolio_react_ts/static/js/186.cca12324.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b99684a3.css",
+    "static/css/main.1961f891.css",
     "static/js/main.1f986a16.js"
   ]
 }
